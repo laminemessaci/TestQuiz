@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.lamine.testqiz.controller.MainActivity">
+
+    <TextView
+        android:id="@+id/activity_main_greeting_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:textSize="18sp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:textStyle="bold"
+        android:hint="Bienvenu au jeu test QI !\n"
+        android:background="#fcb"
+        android:gravity="center"/>
+
+
+    <EditText
+        android:id="@+id/activity_main_name_input"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#bbc"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="10dp"
+        android:hint="Tapez votre prenom !" />
+
+    <Button
+        android:id="@+id/activity_main_play_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:background="@color/colorPrimary"
+        android:padding="30dp"
+        android:text="Jouer"
+        android:textColor="#ffff" />
+
+    <Button
+        android:id="@+id/activity_main_quit_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:background="#ff0000"
+        android:padding="30dp"
+        android:text="Quitter"
+        android:textColor="#ffff" />
+
+    <Button
+        android:id="@+id/activity_main_score_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:background="@color/colorPrimary"
+        android:padding="30dp"
+        android:text="Scores"
+        android:textColor="#ffff" />
+
+</LinearLayout>
